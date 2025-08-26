@@ -1,6 +1,6 @@
 # Racing Game - Unity 3D Racing Project
 
-This is my first attempt at creating a 3D racing game using Unity, built entirely with custom Blender assets I created from scratch. I started with zero 3D modeling experience and worked my way up to building a playable racing game with semi-realistic vehicle physics.
+This is my first attempt at creating a 3D racing game using Unity, built entirely with custom Blender assets I created from scratch. I started with zero 3D modelling experience and worked my way up to building a playable racing game with semi-realistic vehicle physics.
 
 ## Project Overview
 
@@ -23,11 +23,11 @@ Racing-game/
 
 ## Development Journey
 
-### 1. Learning 3D Modeling in Blender
+### 1. Learning 3D modelling in Blender
 
-I started completely from scratch with Blender - no prior 3D experience at all. My first project was the classic "Blender doughnut" tutorial, which taught me the basics of mesh modeling.
+I started completely from scratch with Blender. My first project was following a "Blender doughnut" tutorial, which taught me the basics of mesh modelling.
 
-#### Initial Modeling Practice - Doughnut
+#### Initial modelling Practice - Doughnut
 **Without texture and rendering:**
 <p align="center">
   <img src="Images/No_texture_doughnut.png" alt="No texture doughnut - wireframe view" width="400">
@@ -38,13 +38,13 @@ I started completely from scratch with Blender - no prior 3D experience at all. 
   <img src="Images/Doughnut_render.png" alt="Doughnut with textures and lighting" width="400">
 </p>
 
-This was my first real success with 3D modeling. I learned how to:
+This was my first real success with 3D modelling. I learned how to:
 - Create and manipulate meshes
 - Set up UV maps for texturing
 - Create basic materials
 - Set up lighting and render scenes
 
-### 2. Advanced Modeling Techniques
+### 2. Advanced modelling Techniques
 
 #### Complex Mesh Creation - Chess Horse
 <p align="center">
@@ -184,7 +184,7 @@ I wanted the cars to feel realistic to drive, so I spent a lot of time tweaking 
 ## Technical Specifications
 
 ### Development Environment
-- **3D Modeling**: Blender 3.x (free and powerful!)
+- **3D modelling**: Blender 3.x (free and powerful!)
 - **Game Engine**: Unity 2022.3 LTS
 - **Programming Language**: C# (my first time using it)
 - **Physics Engine**: Unity's built-in physics
@@ -242,4 +242,4 @@ I wanted the cars to feel realistic to drive, so I spent a lot of time tweaking 
 
 ---
 
-*This project shows my journey from knowing nothing about 3D modeling to having a playable racing game. It's been a great learning experience and I'm excited to keep improving it!*
+*This project shows my journey from knowing nothing about 3D modelling to having a playable racing game. It's been a great learning experience and I'm excited to keep improving it!*
