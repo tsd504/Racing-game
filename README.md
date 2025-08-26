@@ -51,7 +51,7 @@ This was my first real success with 3D modelling. I learned how to:
   <img src="Images/chess_horse.png" alt="Detailed chess horse model" width="400">
 </p>
 
-After the doughnut, I wanted to try something more complex. The chess horse taught me how to work with organic shapes and proper topology. I spent a lot of time getting the curves right and making sure the mesh flowed properly.
+After the doughnut, I wanted to try something more relevant to my love of chess. The chess horse taught me how to work with organic shapes and proper topology. I spent a lot of time getting the curves right and making sure the mesh flowed smoothly.
 
 ### 3. Animation and Rigging
 
@@ -61,7 +61,7 @@ After the doughnut, I wanted to try something more complex. The chess horse taug
   <img src="Images/mech2.png" alt="Mechanical model frame 2" width="350">
 </p>
 
-This was my first attempt at animation. I created a simple mechanical model and tried to make it move realistically. I learned about keyframes, timing, and how to make movements look natural rather than robotic.
+This was my first attempt at animation. I created a simple mechanical model and tried to make it move realistically. I learned about timing and how to make movements look natural rather than robotic (no pun intended).
 
 ### 4. Scene Creation and Environment Design
 
@@ -70,7 +70,7 @@ This was my first attempt at animation. I created a simple mechanical model and 
   <img src="Images/well.png" alt="Low poly well scene" width="400">
 </p>
 
-I wanted to try creating a complete scene rather than just individual objects. The well taught me about composition, lighting, and how to make a scene feel atmospheric. I chose low poly because it's easier to work with and looks great in games.
+I wanted to try creating a complete scene rather than just individual objects. The well taught me about how to make a scene feel atmospheric. I chose low poly because it's easier to work with and looks great in games.
 
 ### 5. Vehicle Design for Game Development
 
@@ -146,7 +146,6 @@ public class InputController : MonoBehaviour
 
 **`Wheel.cs`** - Individual wheel physics and rendering
 - Handles wheel rotation and steering
-- Manages torque application
 - Controls wheel visual rotation
 
 **`CameraFollow.cs`** - Dynamic camera system
@@ -156,24 +155,23 @@ public class InputController : MonoBehaviour
 
 ### Vehicle Physics System
 
-I wanted the cars to feel realistic to drive, so I spent a lot of time tweaking the physics values. The game uses Unity's built-in physics engine with some custom tweaks:
+I wanted the cars to feel realistic to drive, so I spent some time tweaking the physics values. The game uses Unity's built-in physics engine with some custom tweaks:
 
 #### Key Physics Components
 
 1. **Rigidbody Physics**
    - I adjusted the center of mass to make the car feel more stable
    - Added proper collision detection so cars don't clip through objects
-   - The momentum system makes drifting feel natural
 
 2. **Wheel Colliders**
    - Each wheel has its own physics so they can react independently
    - I added suspension to make the car bounce realistically over bumps
-   - Tire friction affects how the car grips the road
+   - Tyre friction affects how the car grips the road
 
 3. **Force Application**
    - Motor torque is distributed to all wheels for better acceleration
    - Braking force is applied proportionally to prevent skidding
-   - Steering has limits to prevent the car from flipping over
+   - Steering has limits to prevent the car from flipping over (most of the time)
 
 #### Control Scheme
 
@@ -184,9 +182,9 @@ I wanted the cars to feel realistic to drive, so I spent a lot of time tweaking 
 ## Technical Specifications
 
 ### Development Environment
-- **3D modelling**: Blender 3.x (free and powerful!)
+- **3D modelling**: Blender
 - **Game Engine**: Unity 2022.3 LTS
-- **Programming Language**: C# (my first time using it)
+- **Programming Language**: C#
 - **Physics Engine**: Unity's built-in physics
 - **Rendering**: Unity's built-in render pipeline
 
@@ -207,7 +205,6 @@ I wanted the cars to feel realistic to drive, so I spent a lot of time tweaking 
 1. **Multiple Vehicle Types**
    - Different cars with unique handling characteristics
    - Let players customise their cars
-   - Add performance upgrades and tuning
 
 2. **Track System**
    - Build multiple racing circuits
@@ -215,7 +212,7 @@ I wanted the cars to feel realistic to drive, so I spent a lot of time tweaking 
    - Add checkpoints and lap timing
 
 3. **Enhanced Physics**
-   - Improve tire physics for more realistic handling
+   - Improve tyre physics for more realistic handling
    - Add aerodynamic effects
    - Implement a damage system
 
